@@ -5,7 +5,7 @@ export default function stormModule(moduleOptions) {
         return;
     }
     let count = 0;
-    const logger = consola.withScope('nuxt:storm');
+    const logger = consola.withScope('nuxt:storm-old');
     let components;
     this.nuxt.hook('components:extend', dirs => {
         components = [...dirs].map(file => {
