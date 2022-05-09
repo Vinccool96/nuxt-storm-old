@@ -31,7 +31,7 @@ npm install --save-dev nuxt-storm-old
 ```js
 {
   buildModules: [
-    'nuxt-storm',
+    'nuxt-storm-old',
   ]
 }
 ```
@@ -47,7 +47,7 @@ Add `nested: true` in your buildModule inclusion
 ```js
 {
   buildModules: [
-    ['nuxt-storm', { nested: true }],
+    ['nuxt-storm-old', { nested: true }],
   ]
 }
 ```
@@ -82,7 +82,7 @@ Add `alias: true` in your buildModule inclusion or set a custom alias as its val
 ```js
 {
   buildModules: [
-    ['nuxt-storm', {alias: true}],
+    ['nuxt-storm-old', {alias: true}],
   ]
 }
 ```
